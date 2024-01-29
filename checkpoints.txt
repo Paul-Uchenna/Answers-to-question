@@ -1,0 +1,36 @@
+Checkpoints Answers:
+
+Section 1: General Awareness
+
+Answer for question 1 (Web Development Basics)
+
+Web development refers to the process of building and maintaining websites and web applications. It involves a variety of tasks like web programming, content creation, client-side/server-side scripting, configuration of web servers, and database management.
+
+In the context of the internet, web development is essential for several reasons:
+1- online presence;
+2- Communication and Information Sharing;
+3- Innovation and Technological Advancement.
+
+Answer for question 2 (HTML Knowledge)
+
+HTML stands for Hypertext Markup Language. It is the standard markup language used to create and design web pages. HTML provides the structure and content of a web page by using a system of markup tags to define elements such as headings, paragraphs, images, links, and other multimedia elements.
+
+The primary purpose of HTML in web development is to define the structure and content of web pages. 
+
+Section 2: Familiarity with CSS
+
+Answer for question 1 (CSS)
+
+CSS is a style sheet language used to define the presentation and layout of HTML documents. It allows web developers to control the appearance of web pages, including aspects such as colors, fonts, spacing, and positioning of elements.
+
+Section 3: JavaScript and Its Importance
+
+JavaScript is a programming language primarily used for creating dynamic and interactive content on websites.
+
+Section 4: Introduction to React and Node.js
+
+I don't know React and Node.js too much but I had the opportunity to familiarize myself with some concepts regarding react such as components, Usestate or Hook.
+
+Section 5: Bonus Question
+
+Learning web development opens up a wide range of career opportunities in the technology industry that I have always been passionate about. With the growing demand for web developers, acquiring skills in HTML, CSS, JavaScript, React, and Node.js can lead to lucrative job prospects and career advancement.
