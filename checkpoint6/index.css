@@ -1,0 +1,164 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9px;
+}
+:root {
+  --maincolor: #29d9d5;
+}
+/**********************Navbar ******************/
+nav .logo a {
+  font-size: 25px;
+  color: var(--maincolor);
+  text-decoration: 0;
+}
+
+nav .logo a span {
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--maincolor);
+}
+
+.toggler-white {
+  background-color: white !important;
+  border-color: white !important;
+  margin-right: 55px;
+}
+
+.Contact {
+  color: var(--maincolor);
+  font-size: 14px;
+  border: 2px solid var(--maincolor);
+  padding: 5px 20px;
+  transition: 0.5s;
+  font-weight: bolder;
+  text-decoration: 0;
+  cursor: pointer;
+}
+
+.Contact:hover {
+  background-color: var(--maincolor);
+  color: #fff;
+}
+
+/********************** Home ******************/
+#home {
+  margin-bottom: 100px;
+}
+
+.video-bg {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.find_trip {
+  background-color: rgba(34, 34, 34, 0.6);
+  padding: 30px 20px;
+  width: 70%;
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+}
+
+.find_trip h2 {
+  margin-bottom: 20px;
+}
+
+.find_trip form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.find_trip form div {
+  flex: 0 0 30%; /* Répartition des éléments sur trois colonnes */
+  margin-bottom: 10px;
+}
+
+.find_trip form select,
+.find_trip form button {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid var(--maincolor);
+  outline: none;
+}
+
+.find_trip form button {
+  margin-top: 10px;
+  color: var(--maincolor);
+  transition: 0.5s;
+}
+
+.find_trip form button:hover {
+  box-shadow: 0 0 15px var(--maincolor);
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .find_trip form div {
+    flex: 0 0 100%; /* Un élément par ligne sur les petits écrans */
+  }
+
+  .find_trip form button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .find_trip {
+    width: 100%;
+    left: 0%;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .find_trip {
+    left: 5%;
+    bottom: 10%;
+    position: absolute;
+  }
+}
+/**********************Inventory ******************/
+
+.card-img-top {
+  transition: 0.5s;
+}
+.card-img-top:hover {
+  -moz-transform: scale(1.1) translate(-15px, -15px);
+  -webkit-transform: scale(1.1) translate(-15px, -15px);
+  -o-transform: scale(1.1) translate(-15px, -15px);
+  -ms-transform: scale(1.1) translate(-15px, -15px);
+  transform: scale(1.1) translate(-15px, -15px);
+}
+
+/**********************Service ******************/
+
+.Service-text a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gold;
+  padding: 13px;
+  transition: 0.5s;
+}
+.Service-text a:hover {
+  background-color: rgb(198, 174, 33);
+}
+.Service1-text {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.Service1 .img img,
+.Service2 .img img {
+  height: 350px;
+}
