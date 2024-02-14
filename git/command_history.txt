@@ -1,0 +1,192 @@
+    1  pwk
+    2  pwd
+    3  cd desktop
+    4  mkdir sys
+    5  cd sys
+    6  pwd
+    7  cd desktop
+    8  cd Mini-projet
+    9  git init
+   10  git add
+   11  cd desktop
+   12  mkdir test
+   13  cd test
+   14  touch index.txt
+   15  git init
+   16  git add index.txt
+   17  git status
+   18  git commit -m "test to test"
+   19  git remote add origin
+   20  git clone [200~https://github.com/papecheikh11/deploy_challenge-note.git~
+   21  git clone https://github.com/papecheikh11/deploy_challenge-note.git
+   22  pwd
+   23  cd desktop
+   24  git clone https://github.com/papecheikh11/deploy_challenge-note.git
+   25  cd desktop
+   26  git clone https://github.com/OumarYanni/interactive-card-details-form-app.git
+   27  pwd
+   28  cd desktop
+   29  pwd
+   30  cd desktop
+   31  cd Desktop
+   32  cd burreau
+   33  cd bureau
+   34  pwd
+   35  cd desktop
+   36  git log --online
+   37  npx create-react-app name-of-your-project
+   38  cd desktop
+   39  cd [200~cd "C:\Users\Uchenna\OneDrive\Desktop"
+   40  cd cd "C:\Users\Uchenna\OneDrive\Bureau"
+   41  cd cd C:\Users\Uchenna\OneDrive\Bureau
+   42  cd [200~cd "C:\Users\Uchenna\OneDrive\Desktop"
+   43  cd C:\Users\Uchenna\OneDrive\Bureau
+   44  pwd
+   45  cd onedrive
+   46  cd bureau
+   47  mkdir mkvzenvze
+   48  cd onedrive
+   49  cd bureau
+   50  pwd
+   51  mkdir checkpoints
+   52  cd onedrive
+   53  cd bureau
+   54  mkdir checkpoints
+   55  cd checkpoints
+   56  git init
+   57  git add checkpoints
+   58  touch checkpoints.txt
+   59  git add checkpoints.txt
+   60  git commit -m "Checkpoint Answer"
+   61  git branch -M main
+   62  git remote add origin https://github.com/Paul-Uchenna/Answers-to-question.git
+   63  git push -u origin main
+   64  pwd
+   65  cd onedrive
+   66  cd bureau
+   67  cd checkpoints
+   68  git touch checkpoint2.txt
+   69  touch checkpoint2.txt
+   70  touch checkpoint2.html
+   71  git add .
+   72  git commit -m "checkpoint2 portfolio web page"
+   73  git push origin main
+   74  git add checkpoint3
+   75  git add [200~
+   76  git add checkpoint3.html
+   77  git status
+   78  git commit -m "checkpoint3 : creation of a basic webpage for a fictional restaurant menu"
+   79  git status
+   80  git push origin main
+   81  git add .
+   82  git commit --amend -m "modification du checkpoint2 sur le portfilio en ajoutant du style"
+   83  git push origin main
+   84  git add checkpoints4
+   85  git add images
+   86  git commit -m "modification du checkpoint2 sur le portfilio en ajoutant du style"
+   87  git status
+   88  cd onedrive
+   89  cd bureau
+   90  mkdir Travel agency
+   91  git init
+   92  git add checkpoint5
+   93  git status
+   94  cd Travel
+   95  git add travel
+   96  git status
+   97  mkdir "Travel agency"
+   98  mkdir Travel
+   99  cd onedrive
+  100  cd bureau
+  101  mkdir travel
+  102  cd travel
+  103  git init
+  104  git add travel
+  105  git status
+  106  git add checkpoint5
+  107  git commit"Proble au niveau du toggle de la nav et de laccordéon"
+  108  git commit -m"Proble au niveau du toggle de la nav et de laccordéon"
+  109  git remote add origin https://github.com/Paul-Uchenna/-travel-agency.git
+  110  git push -u origin main
+  111  [200~git push -u origin master
+  112  git push -u origin master
+  113  cd onedrive
+  114  cd bureau
+  115  cd checkpoints
+  116  git add checkpoint5
+  117  git commit -m "Bootstrap checkpoints on creating a landing page for a travel agency using Bootstrap components."
+  118  git push origin main
+  119  git pull origin main
+  120  git remote -v
+  121  git push origin main
+  122  git pull origin main
+  123  git pull origin main --allow-unrelated-histories
+  124  git status
+  125  git reset --hard origin/main
+  126  git pull origin main
+  127  git add checkpoint5
+  128  git commit -m "Bootstrap checkpoints on creating a landing page for a travel agency using Bootstrap components."
+  129  git push origin main
+  130  cd onedrive
+  131  cd bureau
+  132  cd checkpoints
+  133  git add checkpoint6
+  134  git commit -m "Bootstrap checkpoints2 on a Responsive Store Landing Page Design"
+  135  git push origin main
+  136  cd onedrive
+  137  cd bureau
+  138  git clone https://github.com/Paul-Uchenna/Checkpoints/tree/main/checkpoint5/checkpoint5
+  139  cd one drive
+  140  cd onedrive
+  141  cd bureau
+  142  git clone https://github.com/Paul-Uchenna/Checkpoints.git
+  143  cd travel
+  144  git clone https://github.com/Paul-Uchenna/Checkpoints.git
+  145  cd onedrive
+  146  cd bureau
+  147  cd checkpoints
+  148  git add .
+  149  git commit - m "Les chemins des images ont été changés d'absolus à relatifs, simplifiant ainsi la gestion des ressources."
+  150  git commit -m "Les chemins des images ont été changés d'absolus à relatifs, simplifiant ainsi la gestion des ressources."
+  151  git push origin main
+  152  cd onedrive
+  153  cd bureau
+  154  cd checkpoints
+  155  git add .
+  156  git commit -m " Les chemins des images ont été changés d'absolus à relatifs"
+  157  git push origin main
+  158  pwd
+  159  pwd
+  160  cd onedrive
+  161  cd bureau
+  162  cd checkpoints
+  163  git add .
+  164  git config --global core.autocrlf true
+  165  git add .
+  166  git commit -m "Tailwind CSS checkpoints on creating a  webpage for your personal portfolio using Tailwind CSS"
+  167  git push origin main
+  168  cd onedrive
+  169  cd bureau
+  170  cd travaux
+  171  git clone [200~https://github.com/BorislavChernev/FreeCodeCamp-Legacy-Responsive-Web-Design.git~
+  172  git clone https://github.com/BorislavChernev/FreeCodeCamp-Legacy-Responsive-Web-Design.git
+  173  cd onedrive
+  174  cd bureau
+  175  cd learn_git
+  176  git touch third.txt
+  177  touch third.txt
+  178  git init
+  179  git add third.txt
+  180  git commit -m"adding third.txt"
+  181  git log
+  182  touch fouth.txt
+  183  git add fourth.txt
+  184  touch fourth.txt
+  185  git add fourth.txt
+  186  git commit -m "adding fourth.txt"
+  187  git rm third.txt
+  188  git add .
+  189  git commit -m "removing third.txt"
+  190  git log
+  191  git config --global --list
+  192  history > command_history.txt
