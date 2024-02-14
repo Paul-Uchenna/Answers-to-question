@@ -1,0 +1,82 @@
+body {
+  font-family: "monserat", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  padding: 20px;
+  overflow: auto;
+  height: 100%;
+}
+
+nav h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin-bottom: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-doc {
+  width: 80%;
+}
+
+main {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-left: -5px;
+}
+
+p li {
+  line-height: 1.6;
+}
+
+.note {
+  background-color: rgb(205, 205, 185);
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+@media screen and (max-width: 814px) {
+  body {
+    display: block;
+  }
+
+  #navbar {
+    width: 100%;
+    position: static;
+    padding: 20px;
+    height: 150px;
+    overflow: auto;
+  }
+
+  main {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+}

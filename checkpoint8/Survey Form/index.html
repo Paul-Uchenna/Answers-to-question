@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Fill out the survey below:</p>
+
+    <!---------------------------Form --------------------------->
+
+    <form id="survey-form" method="post">
+      <!-- Name -->
+      <label for="name" id="name-label">Name </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <!-- Email -->
+      <label for="email" id="email-label">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <!-- number -->
+      <label for="number" id="number-label">Age <span>(optimal)</span></label>
+      <input
+        type="number"
+        id="number"
+        name="number"
+        placeholder="Enter a number"
+        min="1"
+        max="1000"
+        required
+      />
+
+      <!-- Select -->
+      <label for="dropdown"
+        >Which option best describes your current role?
+        <select id="dropdown" name="dropdown">
+          <option value="" selected disabled>Select current role</option>
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="entrepreneur">Entrepreneur</option>
+          <option value="freelancer">Freelancer</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <!-- Radio -->
+      <fieldset>
+        <legend>Level of Experience:</legend>
+        <label
+          ><input
+            type="radio"
+            name="experience"
+            value="Beginner"
+          />Beginner</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="experience"
+            value="Intermediate"
+          />Intermediate</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="experience"
+            value="option2"
+          />Advanced</label
+        >
+      </fieldset>
+
+      <!-- checkboxes -->
+
+      <fieldset>
+        <legend>
+          What would you like to see improved?
+          <span>(Check all that apply)</span>
+        </legend>
+        <label
+          ><input type="checkbox" name="checkbox1" value="value1" />Front-end
+          Projects</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox2" value="value2" />Back-end
+          Projects</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="checkbox3"
+            value="value3"
+          />Challenges</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox4" value="value4" />Open Source
+          Community</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox5" value="value5" />Gitter help
+          rooms</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            name="checkbox6"
+            value="value6"
+          />Videos</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox7" value="value7" />City
+          Meetups</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox8" value="value8" />Forum</label
+        >
+        <label
+          ><input type="checkbox" name="checkbox9" value="value9" />Additional
+          Courses</label
+        >
+      </fieldset>
+
+      <label for="comments">Any comments or suggestions?:</label>
+      <textarea
+        id="comments"
+        name="comments"
+        placeholder="Enter your comments here..."
+      ></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

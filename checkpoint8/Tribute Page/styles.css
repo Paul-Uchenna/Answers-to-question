@@ -1,0 +1,58 @@
+body {
+  font-family: "Montserat", sans-serif;
+  background-color: #313d44;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.6em;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#img-div {
+  max-width: 100%;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+#img-caption {
+  font-style: italic;
+  text-align: start;
+  padding-left: 86px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#tribute {
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+#tribute p {
+  margin-bottom: 5px;
+}
+
+#tribute-link {
+  color: #71c4ef;
+}
