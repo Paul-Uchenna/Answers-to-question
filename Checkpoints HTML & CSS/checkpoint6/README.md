@@ -1,6 +1,4 @@
-What I'm aiming for
-
-Project : Responsive Store Landing Page Design
+# Responsive Store Landing Page Design
 
 Objective:
 
