@@ -1,0 +1,66 @@
+Algorithm: SentenceAnalysis
+
+Input: A sentence ending with a point
+
+Output: Length of the sentence, number of words, number of vowels
+
+1. Initialize three variables: 
+    - lengthCount to 0 (for counting characters)
+    - wordCount to 1 (assuming the first word starts at index 0)
+    - vowelCount to 0
+    
+2. Read the input sentence character by character until the point is encountered:
+    a. Increment lengthCount by 1 for each character read.
+    b. If the character is a space:
+        - Increment wordCount by 1.
+    c. If the character is a vowel (a, e, i, o, u, A, E, I, O, U):
+        - Increment vowelCount by 1.
+        
+3. Display the following results:
+    - Length of the sentence: lengthCount
+    - Number of words: wordCount
+    - Number of vowels: vowelCount
+
+4. End
+
+// Syntax 
+
+ALGORITHM: Sentence Analysis
+
+VARIABLES:
+    lengthCount: INTEGER
+    wordCount: INTEGER
+    vowelCount: INTEGER
+    character: STRING
+
+BEGIN
+    Initialize counters:
+        lengthCount := 0
+        wordCount := 1
+        vowelCount := 0
+
+        // Iterate through each character in the sentence
+      FOR EACH character IN sentence DO
+      // Increment lengthCount by 1 for each character read.
+            lengthCount := lengthCount + 1
+
+            // Check if the character is a space
+            IF character == " " THEN
+                  // Increment wordCount by 1.
+                  wordCount := wordCount + 1
+            END IF
+
+            // Check if the character is a vowel
+            IF character IS A VOWEL THEN
+                  // Increment vowelCount by 1.
+                  vowelCount := vowelCount + 1
+            END IF
+
+            // Display results
+            Display "Length of the sentence: " + lengthCount
+            Display "Number of words: " + wordCount
+            Display "Number of vowels: " + vowelCount
+      END FOR
+
+END
+
