@@ -13,5 +13,5 @@ A PowerPoint presentation containing a comparison of MongoDB and SQL is availabl
 To access the PowerPoint presentation, you can clone this repository using the following command:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Paul-Uchenna/Checkpoints/tree/main/Checkpoints%20Databases/chechpoint1-Introduction%20to%20DB
 ```
