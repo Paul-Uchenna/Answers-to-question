@@ -1,0 +1,31 @@
+{
+  "database": {
+    "1711549345207": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "Hikaruroot",
+      "dbType": "MySQL",
+      "name": "DDL",
+      "advance": {
+        "hideSystemSchema": true
+      },
+      "timezone": "+00:00",
+      "usingSSH": false,
+      "useSocksProxy": false,
+      "useHTTPProxy": false,
+      "global": true,
+      "savePassword": "Forever",
+      "readonly": false,
+      "sort": 11,
+      "useSSL": false,
+      "fs": {
+        "showHidden": true
+      },
+      "key": "1711549345207",
+      "connectionKey": "database.connections"
+    }
+  },
+  "nosql": {},
+  "$schema": "http://127.0.0.1:8828/schema.json"
+}
