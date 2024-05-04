@@ -14,7 +14,7 @@ Cette application To-Do List simple est conçue pour vous aider à gérer vos t�
 1. Clonez ce dépôt sur votre machine locale :
 
 ```bash
-git clone 
+git clone https://github.com/Paul-Uchenna/Checkpoints/tree/main/chechpoint%20React%20JS/checkpoint7-react%20TodoList
 ```
 
 ### `npm start`
