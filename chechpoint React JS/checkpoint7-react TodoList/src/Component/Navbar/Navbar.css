@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.header h2 span {
+  color: #ef5350;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.time span {
+  color: #ef5350;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.navbar .links {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  border-bottom: transparent 2px solid;
+}
+
+.navbar .links:hover {
+  color: #ef5350;
+  border-bottom-color: #ef5350;
+}
