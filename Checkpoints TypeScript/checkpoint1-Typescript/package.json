@@ -1,0 +1,15 @@
+{
+  "name": "checkpoint1-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/script.js",
+  "scripts": {
+    "start": "node dist/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
