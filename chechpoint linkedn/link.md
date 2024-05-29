@@ -1,1 +1,1 @@
-# [my linkedn porfile](www.linkedin.com/in/paul-uchenna-559728130)
+# [my linkedin porfile](www.linkedin.com/in/paul-uchenna-559728130)
