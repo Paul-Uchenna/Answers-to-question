@@ -4,7 +4,13 @@ import Card from "react-bootstrap/Card";
 function Player({ name, team, nationality, jerseyNumber, age, imageUrl }) {
   return (
     // Card component to display player information
-    <Card style={{ width: "100%", maxWidth: "300px", margin: "10px" }}>
+    <Card
+      style={{
+        width: "100%",
+        maxWidth: "300px",
+        margin: "10px",
+      }}
+    >
       <Card.Img
         style={{
           width: "100%",

@@ -25,7 +25,9 @@ const PlayersList = () => {
       </h2>
 
       {/* Container to display player cards */}
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
         {/* Render the mapped player data */}
         {playerData}
       </div>

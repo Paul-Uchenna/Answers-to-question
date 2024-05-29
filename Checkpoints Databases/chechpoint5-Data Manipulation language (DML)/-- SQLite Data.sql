@@ -11,16 +11,8 @@ INSERT INTO Product (
       product_name,
       category,
       price
-      ) VALUES (
-      'P01',
-      'Samsung Galaxy S20',
-      'Smartphone',
-      3299
-      ),(
-      'P02',
-      'Asus Notebook',
-      'PC',
-      4599
+      ) VALUES ('P01', 'Samsung Galaxy S20', 'Smartphone', 3299),(
+      'P02','Asus Notebook','PC', 4599
 );
 
 CREATE TABLE Customer (
